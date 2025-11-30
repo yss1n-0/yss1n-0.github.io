@@ -1,0 +1,4 @@
+HTML TAGS: header, p, img, a, div, span, button, ul, li, main
+CSS PROPERTIES: width, transition, transform, margin-right, color
+Bootstrap: I used Bootstrap to make a responsive navbar and layout.
+JavaScript: I used JavaScript to automatically update the copyright year and add interactive features such as tooltips and future button effects.

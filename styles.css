@@ -1,0 +1,102 @@
+.nav-link.disabled {
+  pointer-events: auto;
+}
+
+.logo {
+  width: 60px;
+  transition: 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.3) rotate(5deg);
+}
+
+.nav-item .nav-link:not(.disabled):not(.active):hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.page-home, .page-careers, .page-sample-work, .page-contact {
+  overflow-x: hidden;
+}
+
+.yassin-img {
+  max-width: 33%;
+  height: auto;
+  transform: rotate(7deg);
+  margin-right: 1rem;
+}
+
+.paragraph-container {
+  max-width: 600px;
+  width: 100%;
+}
+
+.paragraph-container-space {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 2rem !important;
+}
+
+@font-face {
+  font-family: 'NeueHaasDisplayRoman';
+  src: url('NeueHaasDisplayRoman.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NeueHaasDisplayBold';
+  src: url('NeueHaasDisplayBold.ttf') format('truetype');
+}
+
+body {
+  font-family: 'NeueHaasDisplayRoman', sans-serif;
+  font-size: 17px;
+}
+h1, h2, h3, h4, h5, h6, .fontbrand-bold {
+  font-family: 'NeueHaasDisplayBold', sans-serif;
+}
+
+
+footer i {
+  transition: color 0.3s, transform 0.2s;
+}
+
+footer i:hover {
+  color: #000000;
+  transform: scale(1.2);
+}
+
+.img-text {
+  max-width: 600px;
+  width: 100%;
+}
+
+.card-width {
+  max-width: 600px;
+  width: 100%
+}
+
+.img-card {
+  max-height: 300px;
+  width: 100%;
+}
+
+.empty-card {
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 3 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+}
+
