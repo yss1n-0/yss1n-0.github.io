@@ -101,7 +101,7 @@ footer i:hover {
 }
 
 .tooltip {
-  --bs-tooltip-bg: #000000;
+  --bs-tooltip-bg: #ffffff;
 }
 
 .tooltip .tooltip-inner {
