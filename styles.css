@@ -99,12 +99,3 @@ footer i:hover {
 .show {
   opacity: 1;
 }
-
-.tooltip.bs-tooltip-bottom .tooltip-inner {
-  --bs-tooltip-bg: #333333 !important;
-}
-
-.tooltip.bs-tooltip-bottom .tooltip-arrow::before {
-  color: #333333 !important; /* text color */
-}
-
