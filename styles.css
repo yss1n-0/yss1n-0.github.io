@@ -100,3 +100,11 @@ footer i:hover {
   opacity: 1;
 }
 
+.tooltip {
+  --bs-tooltip-bg: #333333;
+}
+
+.tooltip .tooltip-inner {
+  color: #fff !important; /* text color */
+}
+
